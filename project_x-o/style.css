@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui;
+}
+body{
+background: linear-gradient(214deg, rgba(226,183,183,1) 1%, rgba(212,216,217,1) 63%)no-repeat;
+}
+.game{
+    width: 255px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    height: 100vh;
+
+}
+.title{
+    background: linear-gradient(214deg, rgba(224,133,133,1) 1%, rgba(165,107,170,1) 63%);
+    margin: 5px 0;
+    padding: 5px 0;
+
+}
+span{
+    color: yellow;
+}
+.sqar{
+    background: linear-gradient(214deg, rgba(224,133,133,1) 1%, rgba(165,107,170,1) 63%);
+    width: 80px;
+    height: 80px;
+    margin: 2px ;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    float: left;
+    font-size: 50px;
+    transition: .2s all ;
+
+    
+
+}
+.sqar:hover{
+    background: linear-gradient(214deg, rgba(241,207,207,1) 1%, rgba(193,161,195,1) 63%);
+
+}
